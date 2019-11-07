@@ -1,0 +1,115 @@
+
+/* Lập trình CSS cho thiết bị Desktop */
+.khung{
+	margin: 0 auto;
+	width: 80%;
+	height: 800px;
+	background: green;
+}
+.header{
+	width: 100%;
+	height: 80px;
+	background: red;
+}
+.header .logo{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background: blue;
+}
+.header .navi{
+	float: left;
+	width: 75%;
+	height: 100%;
+	background: gray;
+}
+.aside{
+	float: left;
+	width: 25%;
+	height: 720px;
+	background: yellow;
+}
+.main-content{
+	float: left;
+	width: 50%;
+	height: 720px;
+	background: blue;
+}
+.call-ads{
+	float: left;
+	width: 25%;
+	height: 720px;
+	background: red;
+}
+.call-ads .call{
+	width: 100%;
+	background: yellow;
+	height: 25%;
+}
+.call-ads .ads{
+	width: 100%;
+	height: 75%;
+	background: gray;
+}
+/* Lập trình CSS cho thiết bị Tablet - max-width: 980px; */
+@media screen and (max-width: 980px){
+	.header .logo{
+		background: yellow;
+	}
+	.header .navi{
+		background: pink;
+	}
+	.main-content{
+		width: 75%;
+		background: blue;
+		height: 360px;
+	}
+	.aside{
+		background: gray;
+		height: 360px;
+	}
+	.call-ads{
+		width: 100%;
+		height: 360px;
+		background: yellow;
+	}
+	.call-ads .call{
+		float: left;
+		width: 25%;
+		height: 100%;
+		background: red;
+	}
+	.call-ads .ads{
+		float: left;
+		width: 75%;
+		height: 100%;
+		background: orange;
+	}
+}
+/* Lập trình CSS cho thiết bị smartphone - max-width: 480px;  */
+@media screen and (max-width: 480px){
+	.header .logo{
+		width: 100%;
+		background: blue;
+	}
+	.header .navi{
+		width: 100%;
+		background: red;
+	}
+	.aside{
+		width: 100%;
+		background: yellow;
+	}
+	.main-content{
+		width: 100%;
+		background: gray;
+	}
+	.call-ads .call{
+		width: 100%;
+		background: green;
+	}
+	.call-ads .ads{
+		width: 100%;
+		background: orange;
+	}
+}
